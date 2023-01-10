@@ -42,6 +42,9 @@ func main() {
 		fmt.Println(string(buffer[:n]))
 	}
 
+	// fechamento do arquivo
+	arquivo2.Close()
+
 	err = os.Remove("arquivo.txt")
 	if err != nil {
 		panic(err)
