@@ -3,16 +3,46 @@ package main
 const a = "Hello, World!"
 
 var (
-	b bool    = true
-	c int     = 10
-	d string  = "Wesley"
-	e float64 = 1.2
+	b bool
+	c int
+	d string
+	e float64
 )
 
 func main() {
+	print("a = "); println(a)
 	a := "X" // string
-	println(a)
+	print("a = "); println(a)
+		
+	print("b = "); println(b)
+	b = true
+	print("b = "); println(b)
+	
+	print("c = "); println(c)
+	c = 10
+	print("c = "); println(c)
+	
+	print("d = "); println(d)
+	d = "Wesley"
+	print("d = "); println(d)
+	
+	print("e = "); println(e)
+	e = 1.2
+	print("e = "); println(e)
+
+	x()
 }
 
 func x() {
+	println()
+
+	print("a = "); println(a)
+	
+	print("b = "); println(b)
+	
+	print("c = "); println(c)
+	
+	print("d = "); println(d)
+	
+	print("e = "); println(e)
 }
