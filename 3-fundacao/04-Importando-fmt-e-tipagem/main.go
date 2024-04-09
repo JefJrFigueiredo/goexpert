@@ -17,5 +17,8 @@ var (
 )
 
 func main() {
-	fmt.Printf("O tipo de E é %T", f)
+	fmt.Printf("O tipo de E é %T \n", e)
+	fmt.Printf("O valor de E é %v \n", e)
+	fmt.Printf("O tipo de F é %T \n", f)
+	fmt.Printf("O valor de F é %v \n", f)
 }

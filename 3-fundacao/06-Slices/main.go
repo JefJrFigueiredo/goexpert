@@ -12,7 +12,7 @@ func main() {
 
 	fmt.Printf("s[2:]	len=%d cap=%d %v\n", len(s[2:]), cap(s[2:]), s[2:])
 
-	s = append(s, 110)
+	s = append(s, 110); println("  Adding {110} value to slice")
 	fmt.Printf("s[:]	len=%d cap=%d %v\n", len(s[:]), cap(s[:]), s[:])
 
 	fmt.Printf("s[:2]	len=%d cap=%d %v\n", len(s[:2]), cap(s[:2]), s[:2])

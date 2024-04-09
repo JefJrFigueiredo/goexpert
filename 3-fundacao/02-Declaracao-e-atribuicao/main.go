@@ -10,25 +10,25 @@ var (
 )
 
 func main() {
-	print("a = "); println(a)
+	println("a = ", a)
 	a := "X" // string
-	print("a = "); println(a)
+	println("a = ", a)
 		
-	print("b = "); println(b)
+	println("b = ", b)
 	b = true
-	print("b = "); println(b)
+	println("b = ", b)
 	
-	print("c = "); println(c)
+	println("c = ", c)
 	c = 10
-	print("c = "); println(c)
+	println("c = ", c)
 	
-	print("d = "); println(d)
+	println("d = ", d)
 	d = "Wesley"
-	print("d = "); println(d)
+	println("d = ", d)
 	
-	print("e = "); println(e)
+	println("e = ", e)
 	e = 1.2
-	print("e = "); println(e)
+	println("e = ", e)
 
 	x()
 }
@@ -36,13 +36,13 @@ func main() {
 func x() {
 	println()
 
-	print("a = "); println(a)
+	println("a = ", a)
 	
-	print("b = "); println(b)
+	println("b = ", b)
 	
-	print("c = "); println(c)
+	println("c = ", c)
 	
-	print("d = "); println(d)
+	println("d = ", d)
 	
-	print("e = "); println(e)
+	println("e = ", e)
 }
