@@ -12,6 +12,7 @@ func main() {
 	carro := matematica.Carro{Marca: "Fiat"}
 
 	fmt.Println(carro.Andar())
+	fmt.Println("Marca: ", carro.Marca)
 	fmt.Println("Resultado: ", s)
 	fmt.Println(matematica.A)
 	fmt.Println(uuid.New())

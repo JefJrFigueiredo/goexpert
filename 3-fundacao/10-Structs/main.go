@@ -18,7 +18,7 @@ type Cliente struct {
 
 func (c Cliente) Desativar() {
 	c.Ativo = false
-	fmt.Printf("O cliente %s foi desativado", c.Nome)
+	fmt.Printf("O cliente %s foi desativado \n", c.Nome)
 }
 
 func main() {
